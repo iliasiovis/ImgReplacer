@@ -1,0 +1,17 @@
+ImgReplacer - ver 0.1
+This is a really simple and lightweight jQuery Plug in used to generate img tags based on the browser's viewport width - NOT the devices width.
+There are currently only 3 stages for img tag generation. You must provide 3 images based on width, this plug in does NOT generate images, it just selects the appropriate image based on the width of the browser window. Thus it's good for responsive websites.
+
+This is just an entry version, I might introduce more options etc.
+
+Installation:
+HTML - 
+<div class="imgreplace" data-480="/img/img-480.jpg" data-767="/img/img-767.jpg" data-fallback="/img/img-767.jpg"></div>
+
+Script -
+$('div.imgreplace').imgreplacer();
+
+The script will completely remove the div and replace it with an img tag that has the same class name as the div and the corresponding image source.
+
+created by Ilias Iovis
+http://www.iliasiovis.com @iliasiovis info@iliasiovis.com
