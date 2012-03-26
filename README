@@ -13,5 +13,7 @@ $('div.imgreplace').imgreplacer();
 
 The script will completely remove the div and replace it with an img tag that has the same class name as the div and the corresponding image source.
 
+
 created by Ilias Iovis
+This plug in was developed for https://github.com/prestarocket so credits go to him for the idea.
 http://www.iliasiovis.com @iliasiovis info@iliasiovis.com
